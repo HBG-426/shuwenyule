@@ -1,0 +1,13 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'shuwenyule'   do
+pod "AFNetworking"
+pod "SDWebImage"
+pod "MJExtension"
+pod "SVProgressHUD"
+pod "MJRefresh"
+pod "DACircularProgress"
+pod "pop"
+pod "NJKWebViewProgress"
+pod 'Masonry', '~> 1.0.1'
+end

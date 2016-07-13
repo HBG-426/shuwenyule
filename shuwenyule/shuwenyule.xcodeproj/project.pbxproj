@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DF6AAFF0AEABB1FA69E750A /* Pods_shuwenyule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBC1A952FAC352AAE1E9EBF8 /* Pods_shuwenyule.framework */; };
+		9AA6FF251D35CC3C00E245C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6FF241D35CC3C00E245C8 /* main.m */; };
+		9AA6FF281D35CC3C00E245C8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6FF271D35CC3C00E245C8 /* AppDelegate.m */; };
+		9AA6FF2B1D35CC3C00E245C8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6FF2A1D35CC3C00E245C8 /* ViewController.m */; };
+		9AA6FF2E1D35CC3C00E245C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF2C1D35CC3C00E245C8 /* Main.storyboard */; };
+		9AA6FF301D35CC3C00E245C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF2F1D35CC3C00E245C8 /* Assets.xcassets */; };
+		9AA6FF331D35CC3C00E245C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF311D35CC3C00E245C8 /* LaunchScreen.storyboard */; };
+		9AA6FF3E1D35CC3C00E245C8 /* shuwenyuleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6FF3D1D35CC3C00E245C8 /* shuwenyuleTests.m */; };
+		9AA6FF491D35CC3C00E245C8 /* shuwenyuleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AA6FF481D35CC3C00E245C8 /* shuwenyuleUITests.m */; };
+		9AA6FF6B1D35D42800E245C8 /* Funny.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6A1D35D42800E245C8 /* Funny.storyboard */; };
+		9AA6FF6D1D35D43200E245C8 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6C1D35D43200E245C8 /* Me.storyboard */; };
+		9AA6FF6F1D35D43D00E245C8 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6E1D35D43D00E245C8 /* News.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AA6FF3A1D35CC3C00E245C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6FF181D35CC3C00E245C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA6FF1F1D35CC3C00E245C8;
+			remoteInfo = shuwenyule;
+		};
+		9AA6FF451D35CC3C00E245C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AA6FF181D35CC3C00E245C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AA6FF1F1D35CC3C00E245C8;
+			remoteInfo = shuwenyule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		99ACBD70500EF6A359B5712C /* Pods-shuwenyule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shuwenyule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-shuwenyule/Pods-shuwenyule.debug.xcconfig"; sourceTree = "<group>"; };
+		9AA6FF201D35CC3C00E245C8 /* shuwenyule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shuwenyule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA6FF241D35CC3C00E245C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AA6FF261D35CC3C00E245C8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9AA6FF271D35CC3C00E245C8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9AA6FF291D35CC3C00E245C8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9AA6FF2A1D35CC3C00E245C8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9AA6FF2D1D35CC3C00E245C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AA6FF2F1D35CC3C00E245C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AA6FF321D35CC3C00E245C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AA6FF341D35CC3C00E245C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA6FF391D35CC3C00E245C8 /* shuwenyuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shuwenyuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA6FF3D1D35CC3C00E245C8 /* shuwenyuleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shuwenyuleTests.m; sourceTree = "<group>"; };
+		9AA6FF3F1D35CC3C00E245C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA6FF441D35CC3C00E245C8 /* shuwenyuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = shuwenyuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AA6FF481D35CC3C00E245C8 /* shuwenyuleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shuwenyuleUITests.m; sourceTree = "<group>"; };
+		9AA6FF4A1D35CC3C00E245C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA6FF6A1D35D42800E245C8 /* Funny.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Funny.storyboard; sourceTree = "<group>"; };
+		9AA6FF6C1D35D43200E245C8 /* Me.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Me.storyboard; sourceTree = "<group>"; };
+		9AA6FF6E1D35D43D00E245C8 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		B1317255CE269C65A2604FD4 /* Pods-shuwenyule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shuwenyule.release.xcconfig"; path = "Pods/Target Support Files/Pods-shuwenyule/Pods-shuwenyule.release.xcconfig"; sourceTree = "<group>"; };
+		CBC1A952FAC352AAE1E9EBF8 /* Pods_shuwenyule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shuwenyule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA6FF1D1D35CC3C00E245C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF6AAFF0AEABB1FA69E750A /* Pods_shuwenyule.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF361D35CC3C00E245C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF411D35CC3C00E245C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53589E822807D659106855C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99ACBD70500EF6A359B5712C /* Pods-shuwenyule.debug.xcconfig */,
+				B1317255CE269C65A2604FD4 /* Pods-shuwenyule.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AA6FF171D35CC3C00E245C8 = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF221D35CC3C00E245C8 /* shuwenyule */,
+				9AA6FF3C1D35CC3C00E245C8 /* shuwenyuleTests */,
+				9AA6FF471D35CC3C00E245C8 /* shuwenyuleUITests */,
+				9AA6FF211D35CC3C00E245C8 /* Products */,
+				53589E822807D659106855C2 /* Pods */,
+				A157B6AC08D73A131D922DA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9AA6FF211D35CC3C00E245C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF201D35CC3C00E245C8 /* shuwenyule.app */,
+				9AA6FF391D35CC3C00E245C8 /* shuwenyuleTests.xctest */,
+				9AA6FF441D35CC3C00E245C8 /* shuwenyuleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AA6FF221D35CC3C00E245C8 /* shuwenyule */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF561D35CD3500E245C8 /* Funny */,
+				9AA6FF5A1D35CD3500E245C8 /* Me */,
+				9AA6FF5E1D35CD3500E245C8 /* News */,
+				9AA6FF2F1D35CC3C00E245C8 /* Assets.xcassets */,
+				9AA6FF311D35CC3C00E245C8 /* LaunchScreen.storyboard */,
+				9AA6FF341D35CC3C00E245C8 /* Info.plist */,
+				9AA6FF231D35CC3C00E245C8 /* Supporting Files */,
+			);
+			path = shuwenyule;
+			sourceTree = "<group>";
+		};
+		9AA6FF231D35CC3C00E245C8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF261D35CC3C00E245C8 /* AppDelegate.h */,
+				9AA6FF271D35CC3C00E245C8 /* AppDelegate.m */,
+				9AA6FF291D35CC3C00E245C8 /* ViewController.h */,
+				9AA6FF2A1D35CC3C00E245C8 /* ViewController.m */,
+				9AA6FF2C1D35CC3C00E245C8 /* Main.storyboard */,
+				9AA6FF241D35CC3C00E245C8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AA6FF3C1D35CC3C00E245C8 /* shuwenyuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF3D1D35CC3C00E245C8 /* shuwenyuleTests.m */,
+				9AA6FF3F1D35CC3C00E245C8 /* Info.plist */,
+			);
+			path = shuwenyuleTests;
+			sourceTree = "<group>";
+		};
+		9AA6FF471D35CC3C00E245C8 /* shuwenyuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF481D35CC3C00E245C8 /* shuwenyuleUITests.m */,
+				9AA6FF4A1D35CC3C00E245C8 /* Info.plist */,
+			);
+			path = shuwenyuleUITests;
+			sourceTree = "<group>";
+		};
+		9AA6FF561D35CD3500E245C8 /* Funny */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF571D35CD3500E245C8 /* Controllers */,
+				9AA6FF581D35CD3500E245C8 /* Model */,
+				9AA6FF591D35CD3500E245C8 /* views */,
+				9AA6FF6A1D35D42800E245C8 /* Funny.storyboard */,
+			);
+			path = Funny;
+			sourceTree = "<group>";
+		};
+		9AA6FF571D35CD3500E245C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AA6FF581D35CD3500E245C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AA6FF591D35CD3500E245C8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9AA6FF5A1D35CD3500E245C8 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF5B1D35CD3500E245C8 /* Controllers */,
+				9AA6FF5C1D35CD3500E245C8 /* Model */,
+				9AA6FF5D1D35CD3500E245C8 /* views */,
+				9AA6FF6C1D35D43200E245C8 /* Me.storyboard */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		9AA6FF5B1D35CD3500E245C8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9AA6FF5C1D35CD3500E245C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AA6FF5D1D35CD3500E245C8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		9AA6FF5E1D35CD3500E245C8 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				9AA6FF5F1D35CD3500E245C8 /* controllers */,
+				9AA6FF601D35CD3500E245C8 /* Model */,
+				9AA6FF611D35CD3500E245C8 /* view */,
+				9AA6FF6E1D35D43D00E245C8 /* News.storyboard */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		9AA6FF5F1D35CD3500E245C8 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		9AA6FF601D35CD3500E245C8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AA6FF611D35CD3500E245C8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A157B6AC08D73A131D922DA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBC1A952FAC352AAE1E9EBF8 /* Pods_shuwenyule.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AA6FF1F1D35CC3C00E245C8 /* shuwenyule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA6FF4D1D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyule" */;
+			buildPhases = (
+				7680FA0997CAAADC34C1132A /* [CP] Check Pods Manifest.lock */,
+				9AA6FF1C1D35CC3C00E245C8 /* Sources */,
+				9AA6FF1D1D35CC3C00E245C8 /* Frameworks */,
+				9AA6FF1E1D35CC3C00E245C8 /* Resources */,
+				0BE6B4CD4B9FF4CEB9C850E8 /* [CP] Embed Pods Frameworks */,
+				84019D5CD8D527158E87F475 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = shuwenyule;
+			productName = shuwenyule;
+			productReference = 9AA6FF201D35CC3C00E245C8 /* shuwenyule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AA6FF381D35CC3C00E245C8 /* shuwenyuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA6FF501D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyuleTests" */;
+			buildPhases = (
+				9AA6FF351D35CC3C00E245C8 /* Sources */,
+				9AA6FF361D35CC3C00E245C8 /* Frameworks */,
+				9AA6FF371D35CC3C00E245C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA6FF3B1D35CC3C00E245C8 /* PBXTargetDependency */,
+			);
+			name = shuwenyuleTests;
+			productName = shuwenyuleTests;
+			productReference = 9AA6FF391D35CC3C00E245C8 /* shuwenyuleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AA6FF431D35CC3C00E245C8 /* shuwenyuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AA6FF531D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyuleUITests" */;
+			buildPhases = (
+				9AA6FF401D35CC3C00E245C8 /* Sources */,
+				9AA6FF411D35CC3C00E245C8 /* Frameworks */,
+				9AA6FF421D35CC3C00E245C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA6FF461D35CC3C00E245C8 /* PBXTargetDependency */,
+			);
+			name = shuwenyuleUITests;
+			productName = shuwenyuleUITests;
+			productReference = 9AA6FF441D35CC3C00E245C8 /* shuwenyuleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AA6FF181D35CC3C00E245C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = yu;
+				TargetAttributes = {
+					9AA6FF1F1D35CC3C00E245C8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8S6349HKC4;
+					};
+					9AA6FF381D35CC3C00E245C8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8S6349HKC4;
+						TestTargetID = 9AA6FF1F1D35CC3C00E245C8;
+					};
+					9AA6FF431D35CC3C00E245C8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 8S6349HKC4;
+						TestTargetID = 9AA6FF1F1D35CC3C00E245C8;
+					};
+				};
+			};
+			buildConfigurationList = 9AA6FF1B1D35CC3C00E245C8 /* Build configuration list for PBXProject "shuwenyule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AA6FF171D35CC3C00E245C8;
+			productRefGroup = 9AA6FF211D35CC3C00E245C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AA6FF1F1D35CC3C00E245C8 /* shuwenyule */,
+				9AA6FF381D35CC3C00E245C8 /* shuwenyuleTests */,
+				9AA6FF431D35CC3C00E245C8 /* shuwenyuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AA6FF1E1D35CC3C00E245C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA6FF331D35CC3C00E245C8 /* LaunchScreen.storyboard in Resources */,
+				9AA6FF6F1D35D43D00E245C8 /* News.storyboard in Resources */,
+				9AA6FF301D35CC3C00E245C8 /* Assets.xcassets in Resources */,
+				9AA6FF6D1D35D43200E245C8 /* Me.storyboard in Resources */,
+				9AA6FF2E1D35CC3C00E245C8 /* Main.storyboard in Resources */,
+				9AA6FF6B1D35D42800E245C8 /* Funny.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF371D35CC3C00E245C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF421D35CC3C00E245C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BE6B4CD4B9FF4CEB9C850E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shuwenyule/Pods-shuwenyule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7680FA0997CAAADC34C1132A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		84019D5CD8D527158E87F475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-shuwenyule/Pods-shuwenyule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AA6FF1C1D35CC3C00E245C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA6FF2B1D35CC3C00E245C8 /* ViewController.m in Sources */,
+				9AA6FF281D35CC3C00E245C8 /* AppDelegate.m in Sources */,
+				9AA6FF251D35CC3C00E245C8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF351D35CC3C00E245C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA6FF3E1D35CC3C00E245C8 /* shuwenyuleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA6FF401D35CC3C00E245C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AA6FF491D35CC3C00E245C8 /* shuwenyuleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AA6FF3B1D35CC3C00E245C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA6FF1F1D35CC3C00E245C8 /* shuwenyule */;
+			targetProxy = 9AA6FF3A1D35CC3C00E245C8 /* PBXContainerItemProxy */;
+		};
+		9AA6FF461D35CC3C00E245C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AA6FF1F1D35CC3C00E245C8 /* shuwenyule */;
+			targetProxy = 9AA6FF451D35CC3C00E245C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AA6FF2C1D35CC3C00E245C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA6FF2D1D35CC3C00E245C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AA6FF311D35CC3C00E245C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AA6FF321D35CC3C00E245C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AA6FF4B1D35CC3C00E245C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AA6FF4C1D35CC3C00E245C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AA6FF4E1D35CC3C00E245C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99ACBD70500EF6A359B5712C /* Pods-shuwenyule.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shuwenyule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9AA6FF4F1D35CC3C00E245C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1317255CE269C65A2604FD4 /* Pods-shuwenyule.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = shuwenyule/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyule;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9AA6FF511D35CC3C00E245C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shuwenyuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shuwenyule.app/shuwenyule";
+			};
+			name = Debug;
+		};
+		9AA6FF521D35CC3C00E245C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shuwenyuleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyuleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/shuwenyule.app/shuwenyule";
+			};
+			name = Release;
+		};
+		9AA6FF541D35CC3C00E245C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shuwenyuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shuwenyule;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9AA6FF551D35CC3C00E245C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = shuwenyuleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yu.shuwenyuleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = shuwenyule;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AA6FF1B1D35CC3C00E245C8 /* Build configuration list for PBXProject "shuwenyule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA6FF4B1D35CC3C00E245C8 /* Debug */,
+				9AA6FF4C1D35CC3C00E245C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA6FF4D1D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA6FF4E1D35CC3C00E245C8 /* Debug */,
+				9AA6FF4F1D35CC3C00E245C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA6FF501D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA6FF511D35CC3C00E245C8 /* Debug */,
+				9AA6FF521D35CC3C00E245C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AA6FF531D35CC3C00E245C8 /* Build configuration list for PBXNativeTarget "shuwenyuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AA6FF541D35CC3C00E245C8 /* Debug */,
+				9AA6FF551D35CC3C00E245C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AA6FF181D35CC3C00E245C8 /* Project object */;
+}
