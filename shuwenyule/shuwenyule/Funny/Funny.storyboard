@@ -1,27 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="q7e-7P-Ycd">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="7gs-pL-IN7">
+        <!--Funny View Controller-->
+        <scene sceneID="waQ-L9-eKl">
             <objects>
-                <viewController id="2eP-Nc-EDS" sceneMemberID="viewController">
+                <viewController id="xUr-W9-KvK" customClass="FunnyViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="zaE-Q6-c12"/>
-                        <viewControllerLayoutGuide type="bottom" id="s9u-Tl-gjw"/>
+                        <viewControllerLayoutGuide type="top" id="VuW-Pv-3rB"/>
+                        <viewControllerLayoutGuide type="bottom" id="4yi-xA-Bpl"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="MoA-w7-lfa">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <view key="view" contentMode="scaleToFill" id="GHF-Bq-jTl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="gfR-XF-MEw"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YfL-Ty-GXv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r0S-3Q-8S5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="693" y="472"/>
+            <point key="canvasLocation" x="429.5" y="433.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Sz-5m-OFw">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="q7e-7P-Ycd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2FO-OP-caq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xUr-W9-KvK" kind="relationship" relationship="rootViewController" id="Fjo-6f-UrR"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gz-Em-3UO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164" y="427"/>
         </scene>
     </scenes>
 </document>

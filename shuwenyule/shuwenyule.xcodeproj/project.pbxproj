@@ -19,6 +19,13 @@
 		9AA6FF6B1D35D42800E245C8 /* Funny.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6A1D35D42800E245C8 /* Funny.storyboard */; };
 		9AA6FF6D1D35D43200E245C8 /* Me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6C1D35D43200E245C8 /* Me.storyboard */; };
 		9AA6FF6F1D35D43D00E245C8 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AA6FF6E1D35D43D00E245C8 /* News.storyboard */; };
+		D680B23F1D360C7300C95F30 /* FunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B23E1D360C7300C95F30 /* FunnyViewController.m */; };
+		D680B2461D363C8A00C95F30 /* UIView+YTExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B2451D363C8A00C95F30 /* UIView+YTExtension.m */; };
+		D680B25E1D367BC700C95F30 /* YTAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B25D1D367BC700C95F30 /* YTAllViewController.m */; };
+		D680B2611D367BEB00C95F30 /* YTVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B2601D367BEB00C95F30 /* YTVideoViewController.m */; };
+		D680B2641D367BFB00C95F30 /* YTMusicTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B2631D367BFB00C95F30 /* YTMusicTableViewController.m */; };
+		D680B2671D367C0900C95F30 /* YTPictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B2661D367C0900C95F30 /* YTPictureTableViewController.m */; };
+		D680B26A1D367C1C00C95F30 /* YTWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D680B2691D367C1C00C95F30 /* YTWordTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,20 @@
 		9AA6FF6E1D35D43D00E245C8 /* News.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
 		B1317255CE269C65A2604FD4 /* Pods-shuwenyule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shuwenyule.release.xcconfig"; path = "Pods/Target Support Files/Pods-shuwenyule/Pods-shuwenyule.release.xcconfig"; sourceTree = "<group>"; };
 		CBC1A952FAC352AAE1E9EBF8 /* Pods_shuwenyule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shuwenyule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D680B23D1D360C7300C95F30 /* FunnyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunnyViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B23E1D360C7300C95F30 /* FunnyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunnyViewController.m; sourceTree = SOURCE_ROOT; };
+		D680B2441D363C8A00C95F30 /* UIView+YTExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YTExtension.h"; sourceTree = SOURCE_ROOT; };
+		D680B2451D363C8A00C95F30 /* UIView+YTExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTExtension.m"; sourceTree = SOURCE_ROOT; };
+		D680B25C1D367BC700C95F30 /* YTAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTAllViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B25D1D367BC700C95F30 /* YTAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTAllViewController.m; sourceTree = SOURCE_ROOT; };
+		D680B25F1D367BEB00C95F30 /* YTVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTVideoViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B2601D367BEB00C95F30 /* YTVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTVideoViewController.m; sourceTree = SOURCE_ROOT; };
+		D680B2621D367BFB00C95F30 /* YTMusicTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTMusicTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B2631D367BFB00C95F30 /* YTMusicTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTMusicTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D680B2651D367C0900C95F30 /* YTPictureTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPictureTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B2661D367C0900C95F30 /* YTPictureTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPictureTableViewController.m; sourceTree = SOURCE_ROOT; };
+		D680B2681D367C1C00C95F30 /* YTWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTWordTableViewController.h; sourceTree = SOURCE_ROOT; };
+		D680B2691D367C1C00C95F30 /* YTWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTWordTableViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +214,7 @@
 		9AA6FF591D35CD3500E245C8 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				D680B23C1D360C2700C95F30 /* New Group */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -269,6 +291,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D680B23C1D360C2700C95F30 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				D680B23D1D360C7300C95F30 /* FunnyViewController.h */,
+				D680B23E1D360C7300C95F30 /* FunnyViewController.m */,
+				D680B25C1D367BC700C95F30 /* YTAllViewController.h */,
+				D680B25D1D367BC700C95F30 /* YTAllViewController.m */,
+				D680B25F1D367BEB00C95F30 /* YTVideoViewController.h */,
+				D680B2601D367BEB00C95F30 /* YTVideoViewController.m */,
+				D680B2621D367BFB00C95F30 /* YTMusicTableViewController.h */,
+				D680B2631D367BFB00C95F30 /* YTMusicTableViewController.m */,
+				D680B2651D367C0900C95F30 /* YTPictureTableViewController.h */,
+				D680B2661D367C0900C95F30 /* YTPictureTableViewController.m */,
+				D680B2681D367C1C00C95F30 /* YTWordTableViewController.h */,
+				D680B2691D367C1C00C95F30 /* YTWordTableViewController.m */,
+				D680B2441D363C8A00C95F30 /* UIView+YTExtension.h */,
+				D680B2451D363C8A00C95F30 /* UIView+YTExtension.m */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,6 +377,7 @@
 		9AA6FF181D35CC3C00E245C8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YT;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yu;
 				TargetAttributes = {
@@ -456,9 +500,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D680B26A1D367C1C00C95F30 /* YTWordTableViewController.m in Sources */,
 				9AA6FF2B1D35CC3C00E245C8 /* ViewController.m in Sources */,
+				D680B2671D367C0900C95F30 /* YTPictureTableViewController.m in Sources */,
 				9AA6FF281D35CC3C00E245C8 /* AppDelegate.m in Sources */,
+				D680B2461D363C8A00C95F30 /* UIView+YTExtension.m in Sources */,
+				D680B25E1D367BC700C95F30 /* YTAllViewController.m in Sources */,
+				D680B2641D367BFB00C95F30 /* YTMusicTableViewController.m in Sources */,
 				9AA6FF251D35CC3C00E245C8 /* main.m in Sources */,
+				D680B23F1D360C7300C95F30 /* FunnyViewController.m in Sources */,
+				D680B2611D367BEB00C95F30 /* YTVideoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
